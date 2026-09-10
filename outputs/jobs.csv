@@ -1,0 +1,14 @@
+schemaVersion,recordType,source.name,source.url,content.company,content.title,content.date,content.is_remote,content.role_family,collectedAt
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152938-software-engineer-backend,Vercel,"Software Engineer, Backend",2026-09-09T17:23:14+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152928-senior-product-engineer,Polar,Senior Product Engineer,2026-09-09T17:19:37+00:00,True,Product,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152920-backend-engineer-platform-stacks-uk-remote,Grafana Labs,Backend Engineer - Platform - Stacks | UK | Remote,2026-09-09T16:37:38+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152919-staff-software-engineer-data,Dune,Staff Software Engineer - Data,2026-09-09T16:37:19+00:00,True,Engineering (AI/ML),2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152912-senior-software-engineer-net-f-m-d,Apaleo,Senior Software Engineer (.NET) (f/m/d),2026-09-09T16:31:55+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152910-staff-software-engineer-experimentation-platform,Discord,"Staff Software Engineer, Experimentation Platform",2026-09-09T16:31:15+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152903-senior-developer,Instrument,Senior Developer,2026-09-09T16:28:42+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152895-oracle-erp-fusion-technical-developer,Discord,Oracle ERP Fusion Technical Developer,2026-09-09T16:25:50+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152894-fractional-revops-gtm-engineer-part-time-contract,Anagram,"Fractional RevOps / GTM Engineer (Part-Time, Contract)",2026-09-09T16:25:30+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152887-backend-engineer-net-f-m-d,Apaleo,Backend Engineer (.NET) (f/m/d),2026-09-09T16:22:51+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Jobicy Dev Jobs,https://jobicy.com/jobs/152886-creative-technologist-contract,Instrument,Creative Technologist (contract),2026-09-09T16:22:27+00:00,True,Engineering,2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Hacker News Hiring,https://news.ycombinator.com/item?id=49630169,Hacker News Startup,I want a data center job,2026-09-09T17:34:18+00:00,False,Engineering (AI/ML),2026-09-10T07:40:38.559553+00:00
+1.0,JOB,Hacker News Hiring,https://parlel.com/,Hacker News Startup,"Show HN: Parlel – LinkedIn, but searchable by AI agents",2026-09-09T13:25:55+00:00,False,Engineering (AI/ML),2026-09-10T07:40:38.559553+00:00
