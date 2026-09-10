@@ -135,5 +135,12 @@ class TestFastAPIApplication(unittest.TestCase):
         self.assertEqual(data["status"], "failed")
         self.assertEqual(data["error"], "Pipeline execution failed: Network timeout")
 
+    def test_google_sheets_endpoint(self):
+        response = client.get("/results/google-sheets")
+        self.assertEqual(response.status_code, 200)
+        data = response.json()
+        self.assertIn("google_sheets_export", data)
+        self.assertIn("import_data_formulas", data["google_sheets_export"])
+
 if __name__ == "__main__":
     unittest.main()

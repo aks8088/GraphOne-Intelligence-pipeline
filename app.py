@@ -19,6 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 sys.path.insert(0, os.path.abspath("."))
 
 from src.pipeline import MasterPipeline
+from src.exporters.google_sheets_exporter import GoogleSheetsExporter
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("GraphOneAPI")
@@ -274,3 +275,12 @@ def download_excel():
 @app.get("/results/pdf", summary="Download Executive Architecture PDF Report")
 def download_pdf():
     return _serve_output_file("architecture.pdf", "architecture.pdf", "application/pdf")
+
+@app.get("/results/google-sheets", summary="Get Google Sheets Dynamic Import Links & Live Sync")
+def get_google_sheets():
+    links = GoogleSheetsExporter.get_google_sheets_import_links()
+    sync = GoogleSheetsExporter.sync_to_live_google_sheet()
+    return {
+        "google_sheets_export": links,
+        "live_sync_status": sync
+    }
